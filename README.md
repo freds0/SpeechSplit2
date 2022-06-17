@@ -56,3 +56,10 @@ To finetune a pretrained model(make sure all pretrained models are downloaded in
 python main.py --stage 1 --config_name spsp2-large --model_type G --resume_iters 800000
 ```
 If you want to train the variant with smaller bottleneck, replace `spsp2-large` with `spsp2-small`. If you want to train the pitch converter, replace `G` with `F`.
+
+### 4. Inference
+
+Try [this google colab here](https://colab.research.google.com/drive/1ltljcJV_ZCejUIKwDj0nshtS9KSSrXtK?usp=sharing).
+
+
+https://colab.research.google.com/drive/1ltljcJV_ZCejUIKwDj0nshtS9KSSrXtK#scrollTo=jD5Ef2P6mrjL
